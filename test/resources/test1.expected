@@ -1,0 +1,5 @@
+{
+  "cities": [{
+      "http://dbpedia.org/resource/Amsterdam": "Amsterdam"
+    }]
+}
