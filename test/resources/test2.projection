@@ -1,0 +1,11 @@
+{
+  "entities": [
+    {
+      "id": ?entity,
+      "birthPlace": ?birthPlace,
+      "birthDate": ?birthDate,
+      "thumbnail": ?placeholder,
+      "title": ?label
+    }
+  ]
+}

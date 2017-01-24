@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "id": "http://dbpedia.org/resource/Marcian",
+      "birthPlace": null,
+      "birthDate": null,
+      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Solidus_Marcian_RIC_0509.jpg"
+      "title": "Marcian"
+    },
+    {
+      "id": "http://dbpedia.org/resource/Bongbong_Marcos",
+      "birthPlace": "http://dbpedia.org/resource/Manila",
+      "birthDate": "1957-09-13",
+      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Bongbong_Marcos.jpg",
+      "title": "Bongbong Marcos"
+    }
+  ]
+}
