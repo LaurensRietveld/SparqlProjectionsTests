@@ -2,8 +2,8 @@
   {
     "iri": ?entity,
     "label": ?label,
-    "extraInfo": [
+    "extraInfo": {
       ?aPred:?anObj
-    ]
+    }
   }
 ]
