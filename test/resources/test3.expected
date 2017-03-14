@@ -1,0 +1,25 @@
+[
+  {
+    "iri": "http://dbpedia.org/resource/Aa_(architect)",
+    "label": "Aa (Architekt) ",
+    "extraInfo": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.wikidata.org/entity/Q215627",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+    ]
+  }
+]
+  {
+    "iri": "http://dbpedia.org/resource/Abel,_King_of_Denmark",
+    "label": 	"Abel, King of Denmark",
+    "extraInfo": [
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.w3.org/2002/07/owl#Thing",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 	"http://www.wikidata.org/entity/Q215627"
+
+    ]
+
+  }
+]
