@@ -1,0 +1,9 @@
+from pythonql.Executor import *
+
+inData = results
+programResult = { "cities": [
+                  select {name: label}
+                  for city in inData['results']['bindings']
+                  let name = city['city']['value']
+                  let label = city['cityLabel']['value']
+                ]}

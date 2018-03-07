@@ -1,0 +1,14 @@
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?event ?relation ?object ?indatetime ?begintime ?endtime  WHERE {
+  {
+    SELECT distinct ?event WHERE {
+      ?event rdf:type sem:Event .
+    } LIMIT 100
+  }
+  ?event ?relation ?object .
+  OPTIONAL { ?object rdf:type owltime:Instant ; owltime:inDateTime ?indatetime }
+  OPTIONAL { ?object rdf:type owltime:Interval ; owltime:hasBeginning ?begintime }
+  OPTIONAL { ?object rdf:type owltime:Interval ; owltime:hasEnd ?endtime }
+} ORDER BY ?event
