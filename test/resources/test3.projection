@@ -1,0 +1,9 @@
+[
+  {
+    "iri": ?entity,
+    "label": ?label,
+    "extraInfo": {
+      ?aPred:?anObj
+    }
+  }
+]
