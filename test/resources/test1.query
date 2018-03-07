@@ -1,3 +1,5 @@
 SELECT ?city ?cityLabel WHERE {
-?city rdfs:label ?cityLabel
+  ?city rdf:type dbo:City .
+  ?city rdfs:label ?cityLabel
 }
+LIMIT 5
