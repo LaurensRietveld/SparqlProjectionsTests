@@ -14,10 +14,10 @@ SELECT DISTINCT ?entity ?label ?placeholder ?birthPlace ?birthDate
 WHERE {
   ?entity rdf:type <http://dbpedia.org/ontology/Person> .
   ?entity rdfs:label ?label .
-  FILTER( regex(?label, ?_keywordsList, "i" ))
+  FILTER( regex(?label, "Marcian", "i" ))
   FILTER (langMatches(lang(?label),"en"))
   OPTIONAL { ?entity foaf:depiction ?placeholder  }
   OPTIONAL { ?entity <http://dbpedia.org/ontology/birthDate> ?birthDate }
   OPTIONAL { ?entity <http://dbpedia.org/ontology/birthPlace> ?birthPlace  }
 }
-LIMIT 50
+LIMIT 10
